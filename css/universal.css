@@ -1,0 +1,42 @@
+*{
+    background-color: seashell;
+    border: border-box;
+    width: 100%;
+
+}
+
+header, nav, a, li, ul
+{
+    background-color: lightblue;
+    border: none;
+}
+
+nav
+{
+    overflow: hidden;
+    border: darkblue 2px solid;
+}
+
+nav li
+{
+    color: white;
+}
+
+header
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    /* styling */
+    padding: 10px;
+    
+}
+
+.nav_links{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    list-style-type: none;
+}

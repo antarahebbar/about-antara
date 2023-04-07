@@ -1,0 +1,23 @@
+
+
+/* .nav_links
+{
+    display: flex;
+    flex-direction: row;
+} */
+
+/* @media only screen and (max-width: 600px)
+{ */
+    .pics
+    {
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        height: 100%;
+        row-gap: 10px;
+        column-gap: 15px;
+        justify-content: space-around;
+        align-items: end;
+        text-align: center;
+
+    }
+/* } */
