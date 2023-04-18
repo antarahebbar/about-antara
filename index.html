@@ -5,87 +5,125 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Antara Hebbar!</title>
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css" /> 
     <link rel="stylesheet" type="text/css" href="css/universal.css" /> 
     <link rel="stylesheet" type="text/css" href="css/index.css" /> 
 </head>
 <body>
+    <a class = "skip" id = "skipToMain" href="#skip">Skip to Main Content</a>
     <header>
-        <a class = "skip" href="#skip">Skip to Main Content</a>
-        <!-- can add image at top here -->
+        <img src = "img/SmilyIcon.png" alt = "Smily Icon">
         <nav>
             <ul class="nav_links">
-                <li class="nav_item"><a href="index.html" id = "about">About Me</a></li>
-                <li class="nav_item"><a href="project.html" id = "project">Projects</a></li>
-                <li class="nav_item"><a href="travel.html" id = "travel">Adventures</a></li>
+                <li class = "pages"><a href="index.html" id = "current">About</a></li>
+                <li class = "pages"><a href="project.html" id = "project">Projects</a></li>
+                <li class = "pages"><a href="travel.html" id = "travel">Adventures</a></li>
             </ul>
         </nav>
     </header>
-</body>
 
 <main class = "main" id = "skip">
     <h1> Antara Hebbar's Personal Page </h1>
-    <p> Welcome to my personal page, where you can learn about my projects, interests, and hobbies! </p>
+    <h2 tabindex = "0"> Quick Introduction </h2>
 
-    <h2> Quick Introduction </h2>
-    <div class = "Profle" > 
-        <p>Hi! I'm a student at the University of Michigan pursuing a BSE in Computer Science and a minor in business. I'm interested in creating tech solutions to business issues, especially when they involve machine learning or data analytics. I'm a problem-solver, someone who values creativity and team work. I spent my last summer in Paris, completing a study abroad program for engineers. Before that, I completed a Disease Classification and a Lyric-based classification project. Outside of professional interests, I love to hike, play the piano, and explore new places.</p>
+    <div class = "profile" > 
+        <div class = "text" >
+            <p> Welcome! You can learn about my projects, interests, and hobbies here!</p><br>
+            <p>I'm currently a student at the University of Michigan pursuing a BSE in Computer Science and a minor in business.</p> <br>
+            <p>I'm interested in creating tech solutions to business issues, especially when they involve machine learning or data analytics.</p> 
+            <p>I'm a problem-solver, someone who values creativity and team work. I spent my last summer in Paris, completing a study abroad program for engineers. 
+                Before that, I completed a Disease Classification and a Lyric-based classification project.</p>
+        </div>
+        <img id = "professional" src = "img/AntaraHebbar_Headshot copy.jpg" alt = "Professional Headshot, Antara Hebbar">
     </div>
-    <h2> Here are some of my interests & fun facts:</h2>
-    <div class = "pics">
+
+    <div class = "pics"> 
         
-
-        <div class = "profpic" >
-            <h3>Me!</h3>
-            <img src = "img/NewProf.jpg" alt = "Me"/>
-        </div>
-
-        <div class = "hike" > 
-            <h3> Hiking (this is in Macchu Picchu via Inca Trail, 2016) </h3>
-                <img src = "img/Hike.JPG" alt = "Hiking"/>
-        </div>
-
-        <div class = "Spending time with my dog" > 
-            <h3> Spending time with my dog, Leo </h3>
-                <img src = "img/Dog.jpeg" alt = "Dog"/>
-        </div>
-
-        <div class = "concert" > 
-            <h3> Going to Concerts (Tame Impala in Barcalona) </h3>
-                <img src = "img/Concert.JPG" alt = "Concerts"/>
-        </div>
-
-        <div class = "home" > 
-            <h3> Visitng my hometown </h3>
-                <img src = "img/AnnArbor.jpg" alt = "hometown"/>
-        </div>
-
-        <div class = "family" > 
-            <h3> Having my family (brother) visit Michigan </h3>
-                <img src = "img/Brother.HEIC" alt = "brother"/>
-        </div>
-
-        <div class = "buds" > 
-            <h3> Gamedays with friends! </h3>
-                <img src = "img/Buddies.HEIC" alt = "buddies"/>
-        </div>
-       
+        <h2 class = "label" tabindex = "0" >Hobbies</h2>
        
         <div class = "piano" > 
-            <h3> Piano </h3>
-                <img src = "img/Piano.jpg" alt = "Piano"/>
+            <img src = "img/Piano.jpg" alt = "Classical piano"/>
+            <label class = "alt">Classical piano</label>
         </div>
 
 
         <div class = "celebrate" > 
-            <h3> Celebrating! Just turned 20 in this picture. </h3>
-                <img src = "img/Birthday.jpg" alt = "birthday"/>
+            <img src = "img/Birthday.jpg" alt = "Trying restaurants"/>
+            <label class = "alt" id = "white1">Trying restaurants</label>
         </div>
+    
+        <div class = "buds" > 
+            <img src = "img/Buddies.HEIC" alt = "Gamedays at UMich"/>
+            <label class = "alt">Gamedays at UMich</label>
+        </div>
+
+        <p> Learning classical music on the piano </p>
+        <p> Trying new restaurants and celebrating birthdays! </p>
+        <p> Watching Michigan football games with friends </p>
+       
+    
+
+        <h2 class = "label" tabindex = "0">Experiences</h2>
+        <div class = "hike" > 
+            <img src = "img/Hike.JPG" alt = "Hiking Macchu Picchu"/>
+            <label class = "alt">Hiking Macchu Picchu</label>
+        </div>
+
+
+
+        <div class = "concert" > 
+            <img src = "img/Concert.JPG" alt = "Music festivals"/>
+            <label class = "alt" id = "white2">Music festivals</label>
+        </div>
+
+        <div class = "profpic" >
+            <img src = "img/NewProf.jpg" alt = "Summer in Greece"/>
+            <label class = "alt">Summer in Greece</label>
+        </div>
+
+
+        <p> Hiking (this is in Macchu Picchu via Inca Trail, 2016) </p>
+        <p> Going to Concerts (Tame Impala in Barcalona) </p>
+        <p>Watching worldwide sunsets (this past summer in Greece)</p>
+
+        <h2 class = "label" tabindex = "0">Ann Arbor & Home</h2>
+    
+        <div class = "home" > 
+            <img src = "img/AnnArbor.jpg" alt = "Ann Arbor sunsets"/>
+            <label class = "alt">Ann Arbor sunsets</label>
+        </div>
+
+        <div class = "Spending time with my dog" > 
+            <img src = "img/Dog.jpeg" alt = "Hanging with my dog"/>
+            <label class = "alt">Hanging with my dog</label>
+        </div>
+
+
+        <div class = "family" > 
+            <img src = "img/Brother.HEIC" alt = "Having family visit me"/>
+            <label class = "alt">Having family visit me</label>
+        </div>
+
+        <p> Watching Ann Arbor sunsets on the roof </p>
+        <p> Baking xmas cookies with my dog, Leo </p>
+        <p> Spending quality time with my family</p>
+
     </div>
+   
+    <h3 id = "note">Click on the photos for a description!&#x1F525</h3> 
 
 </main>
-<footer>
-    <p>Antara Hebbar, University of Michigan <br/>
-      Contact me at ahebbar@umich.edu</p>
-  </footer>
+  
+</body>
 
+<script src = "js/index.js"></script>
+
+<footer>
+    <p>Antara Hebbar, University of Michigan</p>
+    <p>Contact me at ahebbar@umich.edu</p>
+    <ul class = "iconslinks">
+        <li><a id = "linkedin" href="https://www.linkedin.com/in/antara-hebbar">Linkedin</a></li>
+        <li><a id = "instagram" href = "https://instagram.com/antarahebbar?igshid=YmMyMTA2M2Y=">Instagram</a></li>
+    </ul>
+  </footer>
 </html>
