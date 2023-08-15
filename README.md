@@ -13,4 +13,4 @@ Here are some of the skills I learned through this project.
 
 
 ## 🔗 Links
-[![Personal Page](https://antarahebbar.github.io/about-antara/)
+Follow here to see my [personal page](https://antarahebbar.github.io/about-antara/).
